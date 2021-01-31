@@ -67,7 +67,7 @@ while True:
 		# window.close()
     # This time delay (sleep) is used to control the while True to avoid using much CPU
 	time.sleep(1)
-# You can also put the process in a separated thread
+# You can also put the process in a separated thread:
 # def thread():
 #     while True:
 #     	if str(win32gui.GetWindowText(win32gui.GetForegroundWindow())) == "Task Manager":
