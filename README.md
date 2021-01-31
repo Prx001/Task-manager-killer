@@ -10,7 +10,7 @@ it cannot be killed by another process even if it has admin privileges, and hidi
 much time and effort and it might not work properly in all Windows versions and computers.
 ## How does it work?
 This simple script, first of all, prompts user to get admin privileges, since this trick is not possible without admin access.
-The library to gain the admin access is included in the GitHub repository [here](https://github.com/Prx001/Task-manager-killer/blob/main/Lib/admin.py)
+The library to gain the admin access is included in the GitHub repository [here](https://github.com/Prx001/Task-manager-killer/blob/main/Lib/admin.py).
 Note that it doesn't gain access silently since it's not possible in Windows, and the user must click on 'Yes' to give the access,
 which the script has another trick to almost bypass this.
 Then, thanks to 'win32gui' library, it waits for an event in a while loop. whenever Task manager becomes the active window, it catches it!
