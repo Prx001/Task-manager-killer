@@ -13,6 +13,6 @@ This simple script, first of all, prompts user to get admin privileges, since th
 The library to gain the admin access is included in the GitHub repository [here](https://github.com/Prx001/Task-manager-killer/blob/main/Lib/admin.py).
 Note that it doesn't gain access silently since it's not possible in Windows, and the user must click on 'Yes' to give the access,
 which the script has another trick to almost bypass this.
-Then, thanks to 'win32gui' library, it waits for an event in a while loop. whenever Task manager becomes the active window, it catches it!
+Then, thanks to 'win32gui' library, it waits for an event in a while loop. Whenever Task manager becomes the active window, it catches it!
 Starts to calculate the position of × button of Task manager window, and moves the mouse cursor to it and clicks on it! That's all!
-More in the [source code](https://github.com/Prx001/Task-manager-killer/blob/main/source/Task manager killer.py).
+More in the [source code](https://github.com/Prx001/Task-manager-killer/blob/main/source/Task%20manager%20killer.py).
