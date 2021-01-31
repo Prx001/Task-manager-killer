@@ -41,6 +41,7 @@ import admin
 
 # This loop is used to grant admin permissions.
 # It's in while True loop to keep asking for admin permission if the user denies the access.
+# Note that killing the Task manager is not possible without admin privileges.
 if not admin.isUserAdmin():
 	while True:
 		try:
