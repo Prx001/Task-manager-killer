@@ -2,7 +2,7 @@
 A tricky open source script to kill the Task manager.
 ## About
 Task manager killer, is a Python script which uses a simple and funny trick to kill Microsoft Windows Task manager.
-Task manager is a very popular tool to monitor almost all processes in Microsoft Windows.
+Task manager is a very popular tool to monitor all processes in Microsoft Windows.
 It's used by almost all Windows users for different purposes such as view RAM usage, CPU usage and so on;
 But when it comes to exploit developers, viruses, spywares, and trojans, it's a real badass enemy!
 and since it's from Windows itself and located in system32, it's a bit hard to deal with,
